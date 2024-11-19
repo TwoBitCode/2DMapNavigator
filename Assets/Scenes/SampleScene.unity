@@ -304,10 +304,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bdfff849dbda4d0aaa168b50d9eccbe, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a3ea1b980e4c48e0934f1fe962ac384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  desiredSceneArea: 200
+  desiredSceneArea: 1920
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 898232128}
   - component: {fileID: 898232127}
   - component: {fileID: 898232126}
-  - component: {fileID: 898232125}
+  - component: {fileID: 898232130}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -653,21 +653,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &898232125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898232124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6f9cb5578cf5408c90c346dbe84dba7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 6
-  bulletPrefab: {fileID: 225361424767649764, guid: 126fa0b4f86aa4322aba75e3498819f9, type: 3}
-  firingPoint: {fileID: 1494321850}
 --- !u!50 &898232126
 Rigidbody2D:
   serializedVersion: 5
@@ -676,7 +661,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898232124}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -803,6 +788,21 @@ Transform:
   - {fileID: 953968497}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &898232130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898232124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b98efef2001410d959343c2c36f907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  bulletPrefab: {fileID: 225361424767649764, guid: 126fa0b4f86aa4322aba75e3498819f9, type: 3}
+  firingPoint: {fileID: 1494321850}
 --- !u!1 &953968496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1231,10 +1231,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1794020104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7301334b8228c4dc2abd791154cff43c, type: 3}
+  m_Script: {fileID: 11500000, guid: 97629019ef15f47b4a10dcb066fbd32e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  desiredSceneArea: 1920
+  desiredSceneArea: 3000
 --- !u!1 &1866188219
 GameObject:
   m_ObjectHideFlags: 0
