@@ -7,7 +7,7 @@
 ## **🌐 Play the Game on itch.io**
 Explore and play our game on itch.io:
 
-➡️ [TwoBitCode itch.io Games](https://twobitcode.itch.io)
+➡️ [TwoBitCode itch.io Games](https://twobitcode.itch.io/2dmapnavigator)
 
 
 ## **📖 Overview**
