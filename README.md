@@ -4,6 +4,12 @@
 ![image](https://github.com/user-attachments/assets/305030b1-543f-46fb-9b57-6c7516ed4ac2)
 
 
+## **🌐 Play the Game on itch.io**
+Explore and play our game on itch.io:
+
+➡️ [TwoBitCode itch.io Games](https://twobitcode.itch.io)
+
+
 ## **📖 Overview**
 This project showcases a 2D game setup with:
 - 🎯 **Dynamic MiniMap**: Maintains consistent dot size and view across screen orientations.
