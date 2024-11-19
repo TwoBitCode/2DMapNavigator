@@ -1,8 +1,9 @@
-# **Unity MiniMap and Camera Project 🚀**
+# **Unity MiniMap and Camera Project with Shooter Mechanics 🚀**
 
 ## **📖 Overview**
 This project showcases a 2D game setup with:
 - 🎯 **Dynamic MiniMap**: Maintains consistent dot size and view across screen orientations.
+- 🎮 **Shooter Mechanics**: Move the player using arrow keys or WASD, and fire bullets by clicking the mouse.
 - 🎥 **Main Camera**: Ensures consistent player size and visible area, regardless of aspect ratio.
 
 ---
@@ -15,6 +16,10 @@ This project showcases a 2D game setup with:
 - **🎮 Main Camera**:
   - Dynamically adjusts for aspect ratio changes.
   - Maintains player size consistency in portrait and landscape modes.
+- **🔫 Shooter Mechanics**:
+  - Move the player using **WASD** or **Arrow Keys**.
+  - Aim using the **mouse**.
+  - Shoot bullets by **left-clicking**.
 
 ---
 
@@ -29,21 +34,27 @@ This project showcases a 2D game setup with:
 ---
 
 ## **🛠️ Included Scripts**
-1. `CameraAdjusterConstantArea`:
+1. **Player Movement and Shooting**:
+   - Move with arrow keys or WASD.
+   - Aim with the mouse.
+   - Shoot bullets with the left mouse button.
+2. `CameraAdjusterConstantArea`:
    - Dynamically adjusts the orthographic size of the Main Camera to maintain a consistent visible area.
    - Ensures the player's size remains consistent.
-2. `MiniMapCameraAdjuster`:
+3. `MiniMapCameraAdjuster`:
    - Fixes the orthographic size of the MiniMap Camera for a stable top-down view.
    - Keeps the MiniMap unaffected by screen orientation changes.
 
 ---
 
 ## **🎨 Customization**
-- Adjust the `desiredSceneArea` in each script:
+- Adjust the `speed` and `lifeTime` for bullets in the **Player** and **Bullet** scripts to fine-tune gameplay.
+- Modify the `desiredSceneArea` in each script:
   - **Main Camera**: Set it for the main gameplay area.
   - **MiniMap Camera**: Control the zoom level of the MiniMap.
 
 ---
 
 ## **🌟 Contributors**
-- Vivian Umansky, Miriam Nagar
+- Vivian Umansky
+- Miriam Nagar
