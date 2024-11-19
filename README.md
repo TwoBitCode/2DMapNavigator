@@ -1,5 +1,9 @@
 # **Unity MiniMap and Camera Project with Shooter Mechanics 🚀**
 
+
+![image](https://github.com/user-attachments/assets/305030b1-543f-46fb-9b57-6c7516ed4ac2)
+
+
 ## **📖 Overview**
 This project showcases a 2D game setup with:
 - 🎯 **Dynamic MiniMap**: Maintains consistent dot size and view across screen orientations.
